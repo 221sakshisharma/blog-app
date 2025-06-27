@@ -2,7 +2,6 @@
 
 A full-featured blog application built with **React**, **Redux**, **Appwrite**, and **TinyMCE** that allows users to create, edit, and manage blog posts. The app supports user authentication, rich text editing, and post categorization.
 
----
 
 ## 🚀 Features
 
@@ -15,7 +14,6 @@ A full-featured blog application built with **React**, **Redux**, **Appwrite**, 
 - 🏷️ **Categorization and filtering** of posts  
 - 📦 **Appwrite database and storage** integration  
 
----
 
 ## 🧑‍💻 Tech Stack
 
@@ -26,7 +24,6 @@ A full-featured blog application built with **React**, **Redux**, **Appwrite**, 
 - **HTML Parsing**: html-react-parser  
 - **Routing**: React Router DOM  
 
----
 
 ## 📸 Preview
 
