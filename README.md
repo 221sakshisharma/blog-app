@@ -5,14 +5,14 @@ A full-featured blog application built with **React**, **Redux**, **Appwrite**, 
 
 ## 🚀 Features
 
-- 🔐 **Authentication** with Appwrite  
-- 🖊️ **Create / Read / Update / Delete (CRUD)** functionality  
-- 📰 **Rich text editor** using TinyMCE  
-- ⚙️ **State management** with Redux Toolkit  
-- 📄 **Dynamic HTML rendering** using `html-react-parser`  
-- 📥 **Form handling** with `react-hook-form`  
-- 🏷️ **Categorization and filtering** of posts  
-- 📦 **Appwrite database and storage** integration  
+- **Authentication** with Appwrite  
+- **Create / Read / Update / Delete (CRUD)** functionality for each post 
+- **Rich text editor** using TinyMCE  
+- **State management** with Redux Toolkit  
+- **Dynamic HTML rendering** using `html-react-parser`  
+- **Form handling** with `react-hook-form`  
+- **Categorization and filtering** of posts  
+- **Appwrite database and storage** integration  
 
 
 ## 🧑‍💻 Tech Stack
@@ -27,10 +27,10 @@ A full-featured blog application built with **React**, **Redux**, **Appwrite**, 
 
 ## 📸 Preview
 
-| Home Page | Create Post |
+| Home Page | Dashboard |
 |-----------|-------------|
-| ![Home](image.png) | ![Create Post](image-1.png) |
+| ![Home](image.png) | ![Dashboard](image-1.png) |
 
-| View Post | Dashboard |
+| View Post | Create Post |
 |-----------|-----------|
-| ![View Post](image-4.png) | ![Dashboard](image-3.png) |
+| ![View Post](image-4.png) | ![Create Post](image-3.png) |
