@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/*auth service*/
+
+.input-field {
+  @apply w-full p-3 border border-gray-300 focus:outline-none hover:border-gray-400 focus:ring-1 focus:ring-blue-500 transition duration-300;
+}
+
+.btn-primary {
+  @apply w-full bg-blue-500 border border-gray-300 text-white py-3 hover:bg-blue-600 transition duration-300;
+}
+
+.btn-secondary {
+  @apply w-full flex items-center justify-center p-3 border border-gray-300 hover:bg-slate-50 transition duration-300;
+}
+
+.auth-link {
+  @apply text-blue-600 hover:underline transition-all duration-300;
+}
+
+.error-text {
+  @apply text-red-500 text-sm mt-1;
+}
+
