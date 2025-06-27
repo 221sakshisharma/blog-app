@@ -60,7 +60,8 @@ export class AuthService {
   async googleLogin() {
     this.account.createOAuth2Session(
       OAuthProvider.Google, // provider
-      "https://blog-2jl6hfgym-221sakshisharmas-projects.vercel.app/my-space", "https://blog-2jl6hfgym-221sakshisharmas-projects.vercel.app/login"
+      "https://blog-app-eta-sandy.vercel.app/my-space",
+      "https://blog-app-eta-sandy.vercel.app/login"
     )
   }
 
