@@ -19,7 +19,7 @@ export class AuthService {
       const userAccount = await this.account.create(ID.unique(), email, password, name);
       if (userAccount) {
         const session = await this.login({ email, password });
-        return session? session: null;
+        return session ? session : null;
       }
       return null
     } catch (error) {
@@ -31,7 +31,7 @@ export class AuthService {
   async login({ email, password }) {
     try {
       const session = await this.account.createEmailPasswordSession(email, password)
-      return session? session: null
+      return session ? session : null
     } catch (error) {
       throw error
     }
@@ -40,7 +40,7 @@ export class AuthService {
   async getCurrentSession() {
     try {
       const user = await this.account.get('current');
-      return user? user: null;
+      return user ? user : null;
     } catch (error) {
       throw error
     }
@@ -60,7 +60,7 @@ export class AuthService {
   async googleLogin() {
     this.account.createOAuth2Session(
       OAuthProvider.Google, // provider
-      "http://localhost:5173/my-space", "http://localhost:5173/login"
+      "https://blog-2jl6hfgym-221sakshisharmas-projects.vercel.app/my-space", "https://blog-2jl6hfgym-221sakshisharmas-projects.vercel.app/login"
     )
   }
 
